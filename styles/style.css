@@ -152,13 +152,20 @@ main {
   flex-shrink: 0;
 }
 
+.features-img{
+  height: 90%;
+  margin-left: 90px;
+}
 .ten-years-badge {
-  width: 342px;
-  height: 200px;
+  width: 242px;
+  height: 150px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #FF900E;
   padding: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
 
 }
 
@@ -170,6 +177,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 70px;
+  margin-top: 0;
   /* 107.692% */
 }
 
@@ -246,6 +254,7 @@ main {
 
   nav,
   .teams-container,
+  .features,
   .facts-card-container,
   .sponsors-img-container {
 
@@ -254,6 +263,11 @@ main {
 
   .teams-img-container {
     grid-template-columns: 1fr;
+  }
+
+  .features-img img{
+    width: 100%;
+    margin-left: 0;
   }
 
   .teams-content,
